@@ -30,7 +30,8 @@ Metode yang digunakan untuk generate bad words cukup simple:
 
 1. Buka `Profile > Alert`
 2. Setelah itu scroll ke bawah sampai menemukan menu `"Filter kata"`
-3. Jangan lupa `Simpan Kata`
+3. Masukkan isi text yang ada di `bad_words_saweria.txt` ke dalam `"Filter kata"`
+4. Jangan lupa `Simpan Kata`
 
 ![Alt text](img/image-2.png)
 
