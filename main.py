@@ -26,13 +26,13 @@ def generate_blacklist_bad_words(corpus_file):
     final_data = pd.concat([data, df_uppercase, df_lowercase, df_swapcase], ignore_index = True)
 
     # convert to Trakteer format bad words filter
-    final_data.to_csv("bad_words_trakteer.txt", index = False, header = False, lineterminator = ', ')
+    final_data.to_csv("politic_words_trakteer.txt", index = False, header = False, lineterminator = ', ')
 
     # convert to Saweria format bad words filter
-    final_data.to_csv("bad_words_saweria.txt", index = False, header = False, lineterminator = ' ')
+    final_data.to_csv("politic_words_saweria.txt", index = False, header = False, lineterminator = ' ')
 
 
 if __name__ == "__main__":
     print("Start Generate Blacklist Words!")
-    generate_blacklist_bad_words(corpus_file = "corpus_bad_words.json")
+    generate_blacklist_bad_words(corpus_file = "corpus_politic_words.json")
     print("End of Process~")
