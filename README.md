@@ -37,6 +37,10 @@ Metode yang digunakan untuk generate bad words cukup simple:
 
 Kalau nggak males, list of bad words nya akan diupdate berkala haha.
 
+## Update 20231121
+- Add blacklist words for Pemilu 2024
+- Output `politic_words_saweria.txt` and `politic_words_trakteer.txt`
+
 Sekian dan Terima Gaji
 
 Tepe
